@@ -1,0 +1,73 @@
+Création d'un site web pour une professionnelle de soins alternatifs et de médiumnité.
+
+
+1 Introduction
+2 Objectif du projet
+3 Processus de Création
+4 Applications intégrées pour le bon fonctionnement du projet final
+5 Mise en production
+6 Conclusion
+
+1 Introduction
+
+Durant cet été 2021 j'ai créé un site web vitrine visant à présenter et promouvoir les services d'une indépendante à des prospects.
+J'ai pu mener à bien le projet grâce à des connaissances acquises en 2020, des tutoriels Grafikart (très détaillés et disponible sur Youtube),
+de la documentation (MDN principalement), une courte étude d'un élément d'un site web similaire à celui que je souhaitais faire via la console du navigateur
+et enfin des logiciels et applications associés pour gérer la partie du projet qui dépassaient mes compétences tout en ayant un rendu final professionnel
+et instinctif pour l'utilisateur.
+
+
+2 Objectif du projet
+
+Créer un site vitrine épuré (une seule page) pour promouvoir une activité indépendante, présenter les services proposés et l'exécutante de ces services.
+Le but était de créer une ambiance chaleureuse qui me ressemble en tant que personne tout en mettant le prospect en confiance.
+Le site devait également prendre en charge les prises de rendez-vous avec une solution de paiement intégrée pour éviter les appels téléphoniques intempestifs
+et les séances impayées.
+Je souhaitais également avoir un total contrôle sur la mise en production : compétence que j'ai acquise via ce projet personnel.
+
+
+3 Processus de Création
+
+Voici une liste non exhaustive et relativement chronologique (plusieurs éléments de cette liste ont été travaillés en même temps)
+des actions effectuées pour créer et finaliser ce projet :
+
+- Production brouillon de plusieurs templates et décision sur lequel me convenait le mieux afin de donner une ligne directrice à mon projet,
+- Prise de plusieurs photos en forêt et recadrage de celles sélectionnées pour le site,
+- Création du code html avec "index.html" comme page source du site web,
+- Création de la feuille de style CSS / stylesheet : "style.css",
+- Rédaction et correction des différents textes,
+- Utilisation conséquente de la console du navigateur pour comprendre comment mon code réagissait avec le navigateur et l'ajuster en conséquence,
+- Intégration de trois googlefont pour obtenir des polices plus valorisantes pour le projet,
+- Intégration des logiciels annexes via des liens dans le document "index.html" et configuration simple de ses logiciels,
+- Adaptation responsive manuelle au bas du document "style.css" pour les smartphones (fonctionel sur les smartphones récents avec un grand nombre de pixels),
+- Mise en production,
+- Plusieurs mises à jour après la mise en production.
+
+
+4 Applications intégrées pour le bon fonctionnement du projet final
+
+Timify :
+Logiciel de prise de rendez-vous en ligne via un calendrier. Le logiciel présente au prospect les différents services possible (selon ceux ajouté par le professionnel)
+et choisi la date et l'heure de son rendez-vous (selon les jours et horaires mis à disposition par le professionnel).
+Ensuite, si le professionnel à paramétré son compte en ce sens, Timify redirige vers une application partenaire pour effectuer le paiement sécurisé.
+
+Stripe :
+Solution de paiement en ligne complète pour indépendants et entreprises du monde entier. Plusieurs devises et modes de paiements adaptés aux habitudes de paiement
+de différents pays. Paiements sécurisés.
+
+Googlefont :
+Service google proposant un grand catalogue de polices d’écritures à télécharger.
+
+
+5 Mise en production
+
+J’ai réalisé la mise en production via la plateforme Gandi.net et l'application Filezilla. Après avoir acheté le nom de domaine et choisi ma formule de serveur 
+je suis entrée en contact avec le SAV pour qu'il m'explique la marche à suivre pour la mise en production.
+Aujourd'hui je suis capable de mettre à jour mon site et de mettre en production moi-même un nouveau site via leur service et Filezilla.
+
+
+6 Conclusion
+
+J'ai créé un code clair (en respectant la syntaxe conseillée avec rigueur), facile à maintenir pour moi à l'avenir avec des outils annexes faciles à utiliser
+et disposant d'un SAV réactif.
+La plupart des avis reçu sur le résultat final (une petite dizaine) se rejoignent pour dire que le site web final montre le sérieux de ma démarche projet. 
