@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url("images/en-tête.jpg");
+    background: url("en-tête.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -96,14 +96,14 @@ img {
 
 .imageEnergetique {
     margin: 0% 0%;
-    background: url("images/soins energétiques.jpg");
+    background: url("soins energétiques.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 .imageMedium {
     margin: 0% 0%;
-    background: url("images/tirages.jpg");
+    background: url("tirages.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
