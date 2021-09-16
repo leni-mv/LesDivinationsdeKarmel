@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: url("images/en-tête.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(73, 31, 11);
+    font-family: 'Tangerine', cursive;
+    font-size: 500%;
+}
+
+h2 {
+    margin: 0%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+h3 {
+    margin: 2%;
+    text-align: center;
+    font-size: 400%;
+    line-height: 130%;
+    font-family: 'Tangerine', cursive;
+    color: rgb(56, 90, 0);
+}
+
+p {
+    margin: 0%;
+}
+
+a {
+    color: inherit;
+    text-decoration-line: none;
+}
+
+.BackgroundNavbar {
+    padding: 1% 25%;
+    background-color: rgba(70, 11, 0, 0.712);
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+    font-size: large;
+    color: rgba(253, 238, 235);
+
+}
+
+.liens {
+    padding: 0% 2%;
+}
+
+.TexteHeader {
+    font-family: 'Lato', sans-serif;
+    color: rgb(133, 64, 32);
+    text-align: center;
+    font-size: 150%;
+    margin: 7%;
+}
+
+.Texte {
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-size: 130%;
+    line-height: 130%;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.Présentation {
+    font-family: 'Noto Serif TC', serif;
+    color: rgba(36, 36, 124, 0.863);
+    background-color: rgb(248, 233, 214);
+}
+
+.PrésentationCenter {
+    text-align: center;
+}
+
+.TextePrésentation {
+    padding: 5% 25%;
+    padding-top: 2%;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 130%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.imageEnergetique {
+    margin: 0% 0%;
+    background: url("images/soins energétiques.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imageMedium {
+    margin: 0% 0%;
+    background: url("images/tirages.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.BackgroundHeader {
+    background-color: rgba(139, 23, 2, 0.452);
+    margin: 0% 0%;
+    padding: 7% 0%;
+}
+
+.Background_h1 {
+    margin: 0% 20%;
+    padding: 7% 7%;
+    background-color: rgba(240, 167, 154, 0.76);
+}
+
+.BackgroundEnergie {
+    padding: 10% 0%;
+    background-color: rgba(206, 198, 79, 0.596);
+}
+
+.BackgroundTexteEnergie {
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: rgba(243, 233, 142, 0.671);
+    color: rgb(56, 90, 0);
+    border-radius: 10px;
+}
+
+.BackgroundMediumnité {
+    padding: 10% 0%;
+    background-color: rgba(5, 6, 97, 0.493);
+}
+
+.BackgroundTexteMédium {
+    margin: 0% 20%;
+    padding: 2%;
+    background-color: rgba(192, 239, 253, 0.747);
+    color: rgb(0, 32, 90);
+    border-radius: 10px;
+}
+
+.rdvButton {
+    margin: 0%;
+    background-color: rgb(255, 142, 97);
+    padding: 3%;
+    padding-bottom: 7%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.TexteButton {
+    padding: 3%;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 120%;
+    line-height: 160%;
+    color: rgb(114, 31, 5);
+}
+
+.lienButton {
+    color: inherit;
+    text-decoration-line: none;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    padding: 1%;
+    background-color: rgba(255, 53, 27, 0.815);
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color: rgba(255, 30, 0, 0.815);
+}
+
+.TitreMédiumnité {
+    color: rgb(0, 32, 90);
+}
+
+.GridEnergie {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.UnEnergie {
+    margin: 5%;
+    margin-top: 0%;
+    padding: 2%;
+    background-color: rgba(198, 252, 128, 0.795);
+    border-radius: 7px;
+    grid-column: auto;
+}
+
+.DeuxEnergie {
+    margin: 5%;
+    margin-top: 0%;
+    padding: 2%;
+    background-color: rgba(198, 252, 128, 0.795);
+    border-radius: 7px;
+    grid-column: auto;
+}
+
+.TexteGridEnergie{
+    font-size: 100%;
+}
+
+.GridMédiumnité {
+    padding: 2%;
+}
+
+.CasesMédiumnité {
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(191, 240, 255);
+    border-radius: 10px;
+    color: rgb(0, 32, 90);
+}
+
+
+.footer {
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+    font-size: 100%;
+    line-height: 130%;
+    font-family: 'Noto Serif TC', serif;
+    background-color: rgb(182, 56, 17);
+    color: rgb(250, 185, 141);
+}
+
+@media (max-width: 7in) {
+    h1 {
+        font-size: 300%;
+    }
+
+    .TexteHeader {
+        font-size: 120%;
+        margin: 7%;
+    }
+
+    .Background_h1 {
+        margin: 0% 10%;
+        padding: 5% 5%;
+    }
+
+    .TextePrésentation {
+        padding: 7% 10%;
+        font-size: 100%;
+        
+    }
+
+    .BackgroundTexteEnergie {
+        margin: 0% 7%;
+    }
+    
+    .BackgroundTexteMédium {
+        margin: 0% 7%;
+    }
+
+}
+
+@media (max-width: 10in) {
+    h1 {
+        font-size: 300%;
+    }
+
+    .TexteHeader {
+        font-size: 120%;
+        margin: 7%;
+    }
+
+    .Background_h1 {
+        margin: 0% 10%;
+        padding: 5% 5%;
+    }
+
+    .TextePrésentation {
+        padding: 7% 10%;
+        font-size: 100%;
+        
+    }
+
+    .BackgroundTexteEnergie {
+        margin: 0% 7%;
+    }
+    
+    .BackgroundTexteMédium {
+        margin: 0% 7%;
+    }
+}
